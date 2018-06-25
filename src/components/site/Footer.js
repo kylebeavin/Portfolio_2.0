@@ -6,8 +6,9 @@ import {
   class Footer extends Component {
   render() {
     return (
-      <footer>
+      <footer className="footer">
         <Row>
+          <div className="spacer"></div>
           <p>Portfolio_2.0</p>
         </Row>
       </footer>

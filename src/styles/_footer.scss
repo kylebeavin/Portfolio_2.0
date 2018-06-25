@@ -1,7 +1,7 @@
 /****************************
     Footer Section
 ****************************/
-footer {
+.footer {
     background-color: $blue; 
     color: white;
     margin-top: 10px;
@@ -14,4 +14,13 @@ footer {
 footer  p {
     margin-top: 0.8em;
     margin-left: 1.5em;
+}
+
+.spacer {
+    position: fixed;
+    left: 0;
+    bottom: 51px;
+    height: 10px;
+    width: 100%;
+    background-color: white;
 }

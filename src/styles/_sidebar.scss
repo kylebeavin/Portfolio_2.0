@@ -2,34 +2,24 @@
 Sidebar Section
 ****************************/
 
-.sidebar {
-    display: flex;
-    margin-top: 10px;
-}
-
 ul {
     list-style-type: 'none';
 }
 
 .sidebar-list-styling{
+    margin-top:10px;
     padding-left: 50px;
     padding-top: 15px;
     width: 20%;
-    height: 75%;
+    height: 100%;
     background-color: $blue;
     color: white;
     position: fixed;
     left: 0px;
-    top: 13%;
 
 }
 
 .sidebar-list a{
     color: white;
     padding: 0;
-}
-
-.sidebar-route{ 
-    flex: 1;
-    padding: '00px'; 
 }
