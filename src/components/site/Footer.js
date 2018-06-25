@@ -8,7 +8,7 @@ import {
     return (
       <footer>
         <Row>
-          <p>&copy; Eleven Fifty 2018</p>
+          <p>Portfolio_2.0</p>
         </Row>
       </footer>
     )

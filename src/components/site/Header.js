@@ -12,10 +12,10 @@ import React, { Component } from 'react';
         return (
           <header>
             <Navbar className="header">
-              <NavbarBrand href="/">React Library</NavbarBrand>
+              <NavbarBrand href="/">Kyle Beavin</NavbarBrand>
                 <Nav className="ml-auto" navbar>
                   <NavItem>
-                    <NavLink href="https://github.com/yourhandle/yourrepoforthisapp">Github</NavLink>
+                    <NavLink href="https://github.com/kylebeavin" target="blank">Github</NavLink>
                   </NavItem>
                 </Nav>
             </Navbar>

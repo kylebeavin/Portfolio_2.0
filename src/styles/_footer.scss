@@ -2,12 +2,16 @@
     Footer Section
 ****************************/
 footer {
-    background-color: $gray; 
+    background-color: $blue; 
     color: white;
     margin-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer  p {
-    margin-top: 0.8em!important;
+    margin-top: 0.8em;
     margin-left: 1.5em;
 }

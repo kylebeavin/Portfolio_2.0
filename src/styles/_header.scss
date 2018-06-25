@@ -2,16 +2,15 @@
     Header Section
     ****************************/
     .header {
-        margin-top: 0.5em!important;
         text-align: center;
-        background-color: $gray; 
+        background-color: $blue; 
         color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
     }
 
     .header a {
         color: white;
-    }
-
-    .header  p {
-        margin-top: 0.8em!important;
     }
