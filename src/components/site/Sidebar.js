@@ -13,8 +13,9 @@ const Sidebar = () => (
     <div className="sidebar-list-styling">
       <ul className="sidebar-list list-unstyled">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/rationale">Rationale</Link></li>
-        <li><Link to="/functionalcomponent">Functional Component</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/resources">Resources</Link></li>
 
       </ul>
