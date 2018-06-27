@@ -8,7 +8,6 @@ export default class Home extends Component {
             <div className="main">
                 <div className="mainDiv">
                     <h1>Kyle Beavin</h1>
-                    < FamilyCarousel />
                 </div>
             </div>
         );
