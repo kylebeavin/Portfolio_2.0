@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Button } from 'reactstrap';
 import {
   Route,
   Link
@@ -12,11 +12,10 @@ const Sidebar = () => (
   <div className="sidebar">
     <div className="sidebar-list-styling">
       <ul className="sidebar-list list-unstyled">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/resources">Resources</Link></li>
+      <li><Link to="/"><Button outline color="secondary">Home</Button></Link></li>
+       <li><Link to="/about"><Button outline color="secondary">About</Button></Link></li>
+       <li><Link to="/projects"><Button outline color="secondary">Projects</Button></Link></li>
+       <li><Link to="/contact"><Button outline color="secondary">Contact</Button></Link></li>
       </ul>
     </div>
     <div className="sidebar-route">
