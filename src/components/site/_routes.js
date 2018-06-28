@@ -3,7 +3,6 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
-import Resources from './Resources';
 
 export const routes = [
     {
@@ -29,11 +28,5 @@ export const routes = [
       exact: true,
       sidebar: () => <div>Contact</div>,
       main: () => <Contact />
-    },
-    {
-      path: '/resources',
-      exact: true,
-      sidebar: () => <div>Works Cited</div>,
-      main: () => <Resources />
-  },
+    }
 ]
