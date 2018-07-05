@@ -1,0 +1,39 @@
+.toggle-button {
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    width: 17px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__line {
+    width: 2px;
+    height: 24px;
+    background: white;
+}
+
+.toggle-button__line2 {
+    width: 13px;
+    height: 24px;
+    background: white;
+    opacity: .25;
+}
+
+.side-drawer {
+    height: 100%;
+    background: $light-blue;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20%;
+}

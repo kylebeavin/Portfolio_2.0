@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
+import Projex from './Projex';
 import Contact from './Contact';
 
 export const routes = [
@@ -22,6 +23,12 @@ export const routes = [
       exact: true,
       sidebar: () => <div>Projects</div>,
       main: () => <Projects />
+    },
+    {
+      path: '/projex',
+      exact: true,
+      sidebar: () => <div>Projex</div>,
+      main: () => <Projex />
     },
     {
       path: '/contact',

@@ -7,12 +7,16 @@ import Sidebar from './components/site/Sidebar'
 import {
   BrowserRouter as Router,
 } from 'react-router-dom';
+import SideDrawer from './components/side-drawer/SideDrawer';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header />
+        <Router>
+          <SideDrawer />
+        </Router>
         <Router>
           <Sidebar />
         </Router>
