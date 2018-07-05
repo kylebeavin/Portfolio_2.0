@@ -12,10 +12,10 @@ const Sidebar = () => (
   <div className="sidebar">
     <div className="sidebar-list-styling">
       <ul className="sidebar-list list-unstyled">
-       <li><Link to="/"><Button outline color="secondary">Home</Button></Link></li>
-       <li><Link to="/about"><Button outline color="secondary">About</Button></Link></li>
-       <li><Link to="/projects"><Button outline color="secondary">Projects</Button></Link></li>
-       <li><Link to="/contact"><Button outline color="secondary">Contact</Button></Link></li>
+       <li><Link to="/"><Button className="sideButton" outline color="secondary">Home</Button></Link></li>
+       <li><Link to="/about"><Button className="sideButton" outline color="secondary">About</Button></Link></li>
+       <li><Link to="/projects"><Button className="sideButton" outline color="secondary">Projects</Button></Link></li>
+       <li><Link to="/contact"><Button className="sideButton" outline color="secondary">Contact</Button></Link></li>
       </ul>
     </div>
     <div className="sidebar-route">
