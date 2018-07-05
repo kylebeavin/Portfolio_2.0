@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'reactstrap';
 import { Route, Link } from 'react-router-dom'
 import { routes } from './_routes';
+import DrawerToggleButton from '../side-drawer/DrawerToggleButton';
 
 const Sidebar = () => (
 
@@ -13,6 +14,7 @@ const Sidebar = () => (
        <li><Link to="/projects"><Button className="sideButton longButton" outline color="secondary">Projects</Button></Link></li>
        <li><Link to="/projex"><Button className="sideButton" outline color="secondary">Projex</Button></Link></li>
        <li><Link to="/contact"><Button className="sideButton longButton" outline color="secondary">Contact</Button></Link></li>
+       <li><DrawerToggleButton /></li>
       </ul>
     </div>
     <div className="sidebar-route">

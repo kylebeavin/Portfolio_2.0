@@ -1,19 +1,25 @@
 import React from 'react';
 import { Button } from 'reactstrap';
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import DrawerToggleButton from './DrawerToggleButton';
 
-const SideDrawer = props => (
-        <nav className="side-drawer">
-            <div>
+const SideDrawer = props => {
+    let drawerClasses = 'side-drawer';
+    if (props.show) {
+        drawerClasses = 'side-drawer open'
+    }
+    return(
+        <nav className={drawerClasses}>
                 <ul>
                     <li><Link to="/1"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
                     <li><Link to="/2"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
                     <li><Link to="/3"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
                     <li><Link to="/4"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
                     <li><Link to="/5"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
+                    <li><DrawerToggleButton /></li>
                 </ul>
-            </div>
         </nav>
-);
+    );
+};
 
 export default SideDrawer;

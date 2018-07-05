@@ -4,18 +4,27 @@ import './App.css';
 import Header from './components/site/Header'
 import Footer from './components/site/Footer'
 import Sidebar from './components/site/Sidebar'
-import {
-  BrowserRouter as Router,
-} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import SideDrawer from './components/side-drawer/SideDrawer';
 
 class App extends Component {
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen}
+    });
+  };
+
   render() {
+
     return (
       <div>
-        <Header />
+        <Header drawerToggleClickHandler={this.drawerToggleClickHandler}/>
         <Router>
-          <SideDrawer />
+          <SideDrawer show={this.state.sideDrawerOpen}  />
         </Router>
         <Router>
           <Sidebar />
