@@ -3,11 +3,12 @@ import DrawerToggleButton from '../side-drawer/DrawerToggleButton'
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 class Header extends Component {
+  
   render() {
     return (
       <header>
         <Navbar className="header">
-          <DrawerToggleButton />
+          <DrawerToggleButton click={this.props.drawerToggleClickHandler}/>
           <NavbarBrand href="/">Kyle Beavin</NavbarBrand>
           <Nav className="ml-auto" navbar>
             <NavItem>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import { Card, Button, CardImg, CardTitle, CardText, CardColumns,
+import { Card, Button, CardImg, CardTitle, CardColumns,
     CardSubtitle, CardBody } from 'reactstrap';
 
 class Projects extends Component {
