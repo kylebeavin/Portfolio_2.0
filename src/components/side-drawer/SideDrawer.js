@@ -16,7 +16,6 @@ const SideDrawer = props => {
                     <li><Link to="/3"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
                     <li><Link to="/4"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
                     <li><Link to="/5"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
-                    <li><DrawerToggleButton /></li>
                 </ul>
         </nav>
     );

@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <header>
         <Navbar className="header">
-          {/* <DrawerToggleButton click={this.props.drawerClickHandler}/> */}
+          <DrawerToggleButton click={this.props.drawerToggleClickHandler}/>
           <NavbarBrand href="/">Kyle Beavin</NavbarBrand>
           <Nav className="ml-auto" navbar>
             <NavItem>
