@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from 'reactstrap';
 import { Route, Link } from 'react-router-dom'
 import { routes } from './_routes';
-import DrawerToggleButton from '../side-drawer/DrawerToggleButton';
 
 const Sidebar = () => (
 
