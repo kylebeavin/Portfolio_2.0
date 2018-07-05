@@ -1,6 +1,9 @@
 /****************************
 Sidebar Section
 ****************************/
+.sidebar {
+    z-index: 100;
+}
 
 ul {
     list-style-type: 'none';
@@ -16,7 +19,6 @@ ul {
     color: white;
     position: fixed;
     left: 0px;
-
 }
 
 .sidebar-list a{

@@ -34,6 +34,13 @@
     box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
     position: fixed;
     left: 0;
-    top: 0;
+    top: 66px;
     width: 20%;
+    z-index: 200;
+}
+
+.side-drawer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
 }
