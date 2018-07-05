@@ -48,7 +48,11 @@ ul {
 .sideButton {
   color: white;
   border: solid white;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  width: 70px; }
+
+.longButton {
+  padding-left: 5px; }
 
 /****************************
 Main Section

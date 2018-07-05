@@ -14,8 +14,8 @@ const Sidebar = () => (
       <ul className="sidebar-list list-unstyled">
        <li><Link to="/"><Button className="sideButton" outline color="secondary">Home</Button></Link></li>
        <li><Link to="/about"><Button className="sideButton" outline color="secondary">About</Button></Link></li>
-       <li><Link to="/projects"><Button className="sideButton" outline color="secondary">Projects</Button></Link></li>
-       <li><Link to="/contact"><Button className="sideButton" outline color="secondary">Contact</Button></Link></li>
+       <li><Link to="/projects"><Button className="sideButton longButton" outline color="secondary">Projects</Button></Link></li>
+       <li><Link to="/contact"><Button className="sideButton longButton" outline color="secondary">Contact</Button></Link></li>
       </ul>
     </div>
     <div className="sidebar-route">
