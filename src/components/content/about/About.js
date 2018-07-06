@@ -12,7 +12,7 @@ class About extends Component {
                     <h1>About</h1>
                         <Row>
                             <Col lg="9" md="6" xs="12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique. Habitant morbi tristique senectus et netus. Lacus laoreet non curabitur gravida arcu. Sapien pellentesque habitant morbi tristique senectus. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Consectetur libero id faucibus nisl tincidunt eget. Viverra adipiscing at in tellus integer feugiat. Viverra accumsan in nisl nisi. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</p>
                             </Col>
                             <Col lg="3">
                                 <Card inverse>
