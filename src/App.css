@@ -9,6 +9,9 @@ body {
   background-color: white;
   font: Belleza; }
 
+form {
+  margin-bottom: 1rem; }
+
 /****************************
     Header Section
     ****************************/
