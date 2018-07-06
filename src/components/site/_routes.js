@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
-import Projex from './Projex';
-import Contact from './Contact';
+import Home from '../content/home/Home';
+import About from '../content/about/About';
+import Projects from '../content/projects/Projects';
+import Projex from '../content/projects/Projex';
+import Contact from '../content/contact/Contact';
 
 export const routes = [
     {
