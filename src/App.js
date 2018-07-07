@@ -27,7 +27,7 @@ class App extends Component {
           <SideDrawer show={this.state.sideDrawerOpen}  />
         </Router>
         <Router>
-          <Sidebar />
+          <Sidebar drawerToggleClickHandler={this.drawerToggleClickHandler}/>
         </Router>
         <Footer />
       </div>
