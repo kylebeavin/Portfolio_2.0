@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import { Container, Row, Col, Card, CardImg } from 'reactstrap';
+import kyle1 from '../../../assets/kyle1_1.jpg';
 
 export default class Home extends Component {
     render() {
@@ -36,7 +37,11 @@ export default class Home extends Component {
                                     section.
                                 </h6>
                             </Col>
-                            <Col></Col>
+                            <Col lg="3">
+                                <Card inverse>
+                                    <CardImg width="100%" src={kyle1} alt="Card image cap" />
+                                </Card>
+                            </Col>                        
                         </Row>
                     </Container>
                 </div>
