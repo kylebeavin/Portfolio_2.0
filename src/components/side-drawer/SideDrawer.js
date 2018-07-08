@@ -22,7 +22,7 @@ const SideDrawer = props => {
                 <li><DrawerToggleButton click={props.drawerToggleClickHandler} /></li>
             </ul>
         </nav>
-        <div className="main">
+        <div className="mainDiv">
             {routes.map((route, index) => (
                 <Route
                     key={index}
