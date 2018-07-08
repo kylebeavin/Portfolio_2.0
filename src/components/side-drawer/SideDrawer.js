@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom'
+import { routes } from '../site/_routes2';
 import DrawerToggleButton from '../side-drawer/DrawerToggleButton'
 
 const SideDrawer = props => {
@@ -8,17 +9,29 @@ const SideDrawer = props => {
     if (props.show) {
         drawerClasses = 'side-drawer open'
     }
-    return(
+    return (
+        <div>
         <nav className={drawerClasses}>
-                <ul>
-                    <li><Link to="/1"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
-                    <li><Link to="/2"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
-                    <li><Link to="/3"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
-                    <li><Link to="/4"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
-                    <li><Link to="/5"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
-                    <li><DrawerToggleButton click={props.drawerToggleClickHandler}/></li>
-                </ul>
+            <ul>
+                <li><Link to="/project1"><Button className="sideButton" outline color="secondary">project1</Button></Link></li>
+                <li><Link to="/project2"><Button className="sideButton" outline color="secondary">project2</Button></Link></li>
+                <li><Link to="/project3"><Button className="sideButton" outline color="secondary">project3</Button></Link></li>
+                <li><Link to="/project4"><Button className="sideButton" outline color="secondary">project4</Button></Link></li>
+                <li><Link to="/project5"><Button className="sideButton" outline color="secondary">project5</Button></Link></li>
+                <li><DrawerToggleButton click={props.drawerToggleClickHandler} /></li>
+            </ul>
         </nav>
+        <div className="main">
+            {routes.map((route, index) => (
+                <Route
+                    key={index}
+                    path={route.path}
+                    exact={route.exact}
+                    component={route.main}
+                />
+            ))}
+        </div>
+        </div>
     );
 };
 
