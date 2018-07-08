@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardImg } from 'reactstrap';
 
-const Project3 = () => {
+
+const Project6 = () => {
     return (
         <div className="main">
             <div className="mainDiv">
                 <Container>
-                    <h1>Project3</h1>
+                    <h1>Project6</h1>
                     <Row>
                         <Col lg="9" md="6" xs="12">
                             <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
@@ -43,4 +44,4 @@ const Project3 = () => {
     );
 };
 
-export default Project3;
+export default Project6;

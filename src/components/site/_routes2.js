@@ -4,6 +4,7 @@ import Project2 from '../content/projects/projects/Project2';
 import Project3 from '../content/projects/projects/Project3';
 import Project4 from '../content/projects/projects/Project4';
 import Project5 from '../content/projects/projects/Project5';
+import Project6 from '../content/projects/projects/Project6';
 
 export const routes = [
     {
@@ -35,5 +36,11 @@ export const routes = [
         exact: true,
         sidedrawer: () => <div>Project5</div>,
         main: () => <Project5 />
+    },
+    {
+        path: '/project6',
+        exact: true,
+        sidedrawer: () => <div>Project6</div>,
+        main: () => <Project6 />
     }
 ]
