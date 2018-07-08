@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import DrawerToggleButton from '../side-drawer/DrawerToggleButton'
 
 const SideDrawer = props => {
     let drawerClasses = 'side-drawer';
@@ -15,6 +16,7 @@ const SideDrawer = props => {
                     <li><Link to="/3"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
                     <li><Link to="/4"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
                     <li><Link to="/5"><Button className="sideButton" outline color="secondary">project</Button></Link></li>
+                    <li><DrawerToggleButton click={props.drawerToggleClickHandler}/></li>
                 </ul>
         </nav>
     );
