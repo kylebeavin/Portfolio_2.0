@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardImg } from 'reactstrap';
+import spa1 from '../../../../assets/ReactSPA_1.PNG';
+import spa2 from '../../../../assets/ReactSPA_2.PNG';
+import spa3 from '../../../../assets/ReactSPA_3.PNG';
 
 
 const Project6 = () => {
@@ -14,7 +17,7 @@ const Project6 = () => {
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src="" alt="Card image cap" />
+                                <CardImg width="100%" src={spa1} alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>
@@ -24,7 +27,7 @@ const Project6 = () => {
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src="" alt="Card image cap" />
+                                <CardImg width="100%" src={spa2} alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>
@@ -34,7 +37,7 @@ const Project6 = () => {
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src="" alt="Card image cap" />
+                                <CardImg width="100%" src={spa3} alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>

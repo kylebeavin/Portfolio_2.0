@@ -104,6 +104,15 @@ footer p {
   background-color: white;
   z-index: 300; }
 
+.glyph {
+  color: white;
+  font-size: 36px;
+  margin-top: 4px;
+  margin-right: .5rem; }
+
+.resume {
+  padding-right: 1.5rem; }
+
 .toggle-button {
   display: flex;
   flex-direction: row;
