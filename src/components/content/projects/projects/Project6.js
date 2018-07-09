@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardImg } from 'reactstrap';
+import spa1 from '../../../../assets/ReactSPA_1.PNG';
+import spa2 from '../../../../assets/ReactSPA_2.PNG';
+import spa3 from '../../../../assets/ReactSPA_3.PNG';
 
 
 const Project6 = () => {
@@ -7,14 +10,14 @@ const Project6 = () => {
         <div className="main">
             <div className="mainDiv">
                 <Container>
-                    <h1>Project6</h1>
+                    <h1>React Fundamentals SPA</h1>
                     <Row>
                         <Col lg="9" md="6" xs="12">
                             <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src="" alt="Card image cap" />
+                                <CardImg width="100%" src={spa1} alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>
@@ -24,7 +27,7 @@ const Project6 = () => {
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src="" alt="Card image cap" />
+                                <CardImg width="100%" src={spa2} alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>
@@ -34,7 +37,7 @@ const Project6 = () => {
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src="" alt="Card image cap" />
+                                <CardImg width="100%" src={spa3} alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>
