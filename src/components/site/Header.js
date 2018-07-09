@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import DrawerToggleButton from '../side-drawer/DrawerToggleButton'
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav } from 'reactstrap';
 
 class Header extends Component {
   
@@ -8,12 +7,9 @@ class Header extends Component {
     return (
       <header>
         <Navbar className="header">
-          <DrawerToggleButton click={this.props.drawerToggleClickHandler}/>
           <NavbarBrand href="/">Kyle Beavin</NavbarBrand>
           <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink href="https://github.com/kylebeavin" target="blank">Github</NavLink>
-            </NavItem>
+          <NavbarBrand>Portfolio_2.0</NavbarBrand>
           </Nav>
         </Navbar>
       </header>
