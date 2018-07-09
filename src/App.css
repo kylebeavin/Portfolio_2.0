@@ -91,10 +91,6 @@ Main Section
   width: 100%;
   z-index: 300; }
 
-footer p {
-  margin-top: 0.8em;
-  margin-left: 1.5em; }
-
 .spacer {
   position: fixed;
   left: 0;
@@ -104,14 +100,19 @@ footer p {
   background-color: white;
   z-index: 300; }
 
-.glyph {
-  color: white;
-  font-size: 36px;
-  margin-top: 4px;
-  margin-right: .5rem; }
+.brandList li {
+  list-style-type: none;
+  display: inline-block; }
 
-.resume {
-  padding-right: 1.5rem; }
+ul.brandList {
+  margin: 5px 5px 5px 5px; }
+
+button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20%;
+  font-size: 26px; }
 
 .toggle-button {
   display: flex;
