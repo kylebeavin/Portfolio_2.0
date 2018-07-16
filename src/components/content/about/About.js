@@ -14,7 +14,7 @@ class About extends Component {
                     <h1>About</h1>
                         <Row>
                             <Col lg="9" md="6" xs="12">
-                                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                                <h6>The first time I discovered programming was right at the beginning of middleschool. A friend of mine made me download an MS-DOS game called ZZT. It was actually a game editor that came with a couple games pre-installed. I would spend days designing boards and using a primitive markdown language to interact with objects. I even took it on our family vacation so I could keep testing my code!</h6>
                             </Col>
                             <Col lg="3">
                                 <Card inverse>
@@ -24,7 +24,7 @@ class About extends Component {
                         </Row>
                         <Row>
                             <Col lg="9" md="6" xs="12">
-                                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                                <h6>I spent a decade pouring myself into my work, doing manual labor eventually working up the management chain. There was something else calling me though. In the summer of 2017 is when I started trying to teach myself to code. I would stay up late studying C++ and Python syntaxes and OOP principles. Then one day I discovered Eleven Fifty Academy. They put me through very an intense learning program to develop my web building skills.</h6>
                             </Col>
                             <Col lg="3">
                                 <Card inverse>
@@ -34,7 +34,12 @@ class About extends Component {
                         </Row>
                         <Row>
                             <Col lg="9" md="6" xs="12">
-                                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                                <h6>The most important tool I have now is the ability to teach myself. I am not afraid to jump right in, be vulnerable, take constructive criticism or take the lead. Checkout The links below and connect with me on LinkedIn </h6>
+                                <ul>
+                                    <li><a href="https://github.com/kylebeavin" target="blank">GitHub</a></li>
+                                    <li><a href="https://www.linkedin.com/in/kyle-beavin-62758a78" target="blank">LinkedIn</a></li>
+                                    <li><a href="https://drive.google.com/open?id=1CftfNskaZCpKwZSFqzlsQZwH0Hw94LJj" target="blank"> My Resume PDF</a></li>
+                                </ul>
                             </Col>
                             <Col lg="3">
                                 <Card inverse>
