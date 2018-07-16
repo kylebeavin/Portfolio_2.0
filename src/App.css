@@ -124,6 +124,9 @@ button {
   background-color: dimgray;
   border: dimgray solid 1px; }
 
+.brandButton:focus {
+  outline: none; }
+
 .toggle-button {
   margin-left: 25%;
   display: flex;
