@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardImg } from 'reactstrap';
-import movie1 from '../../../../assets/MovieProDB_1.PNG';
 import movie2 from '../../../../assets/MovieProDB_2.png';
 import movie3 from '../../../../assets/MovieProDB_3.jpg';
 import movie4 from '../../../../assets/MovieProDB_4.PNG';
@@ -13,7 +12,7 @@ const Project2 = () => {
                     <h1>Movie Pro DB</h1>
                     <Row>
                         <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                            <h6>Movie Pro DB is a prototype myself and two other developers built for our client. It is an administrative application for movie production companies. They will be able to enter product and merchandise information into a database.</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
@@ -22,8 +21,8 @@ const Project2 = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                        <Col lg="9" md="6" xs="12" className="project2-col2">
+                            <h6>Our team started by building a server and connecting it to our database using node.js and PostgreSQL. We built our client facing side using Angular5. My responsibilities were writing and testing the code for the user authentication, user controllers and user models for the front and back end.</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
@@ -33,7 +32,12 @@ const Project2 = () => {
                     </Row>
                     <Row>
                         <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                            <h6>Technical skills:</h6>
+                            <ul>
+                                <li>Angular5, Angular Material, JavaScript, HTML, CSS</li>
+                                <li>Node.js, Express, Sequelize, PostgreSQL</li>
+                                <li>BitBucket, RESTful API's, Team Git, Agile </li>
+                            </ul>
                         </Col>
                         <Col lg="3">
                             <Card inverse>

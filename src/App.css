@@ -127,6 +127,9 @@ button {
 .brandButton:focus {
   outline: none; }
 
+/****************************
+SideDrawer Section
+****************************/
 .toggle-button {
   margin-left: 25%;
   display: flex;
@@ -184,3 +187,9 @@ button {
   padding: 3px;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg); }
+
+/****************************
+Project Section
+****************************/
+.project2-col2 {
+  padding-top: 1rem; }
