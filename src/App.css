@@ -105,7 +105,8 @@ Main Section
   display: inline-block; }
 
 ul.brandList {
-  margin: 5px 5px 5px 5px; }
+  margin: 5px 5px 5px 5px;
+  padding: 0; }
 
 button {
   background-color: transparent;
@@ -114,11 +115,21 @@ button {
   border-radius: 20%;
   font-size: 26px; }
 
+.brandButton {
+  margin-left: 1rem;
+  transition: background-color .15s ease-in-out;
+  transition: border .15s ease-in-out; }
+
+.brandButton:hover {
+  background-color: dimgray;
+  border: dimgray solid 1px; }
+
 .toggle-button {
+  margin-left: 25%;
   display: flex;
   flex-direction: row;
   height: 24px;
-  width: 17px;
+  width: 30px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -135,10 +146,9 @@ button {
   background: white; }
 
 .toggle-button__line2 {
-  width: 13px;
-  height: 24px;
-  background: white;
-  opacity: .25; }
+  margin-left: 3px;
+  width: 60px;
+  height: 24px; }
 
 .side-drawer {
   height: 100%;
@@ -162,3 +172,12 @@ button {
   display: flex;
   flex-direction: column;
   padding: 0; }
+
+.toggle-button__arrow {
+  margin-bottom: 2px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg); }

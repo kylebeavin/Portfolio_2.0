@@ -29,6 +29,7 @@
 
 ul.brandList {
     margin: 5px 5px 5px 5px;
+    padding: 0;
 }
 
 button {
@@ -37,4 +38,16 @@ button {
     border: 1px solid white;
     border-radius: 20%;
     font-size: 26px;
+}
+
+.brandButton {
+    margin-left: 1rem;
+    transition: background-color .15s ease-in-out;
+    transition: border .15s ease-in-out;
+}
+
+.brandButton:hover {
+    background-color: dimgray;
+    border: dimgray solid 1px;
+
 }
