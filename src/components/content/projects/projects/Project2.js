@@ -32,7 +32,7 @@ const Project2 = () => {
                     </Row>
                     <Row>
                         <Col lg="9" md="6" xs="12">
-                            <h6>Technical skills:</h6>
+                            <h6>Technical skills:<a href="https://movieprodb.firebaseapp.com/landing-page" target="blank">Movie Pro DB</a></h6>
                             <ul>
                                 <li>Angular5, Angular Material, JavaScript, HTML, CSS</li>
                                 <li>Node.js, Express, Sequelize, PostgreSQL</li>
