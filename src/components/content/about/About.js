@@ -14,7 +14,7 @@ class About extends Component {
                     <h1>About</h1>
                         <Row>
                             <Col lg="9" md="6" xs="12">
-                                <h6>The first time I discovered programming was in middleschool. I downloaded an MS-DOS game that was actually a game editor. I would spend days designing boards and using a primitive language to interact with objects. I even took it on our family vacation so I could keep testing my code! In the summer of 2017 is when I started trying to teach myself to code.</h6>
+                                <h6>The first time I discovered programming was in middleschool. I downloaded an MS-DOS game editor. I would spend days designing boards and using a primitive language to interact with objects. I even took it on our family vacation so I could keep testing my code! In the summer of 2017 is when I started trying to teach myself to code.</h6>
                             </Col>
                             <Col lg="3">
                                 <Card inverse>
