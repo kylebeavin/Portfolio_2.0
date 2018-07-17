@@ -10,10 +10,10 @@ const Project6 = () => {
         <div className="main">
             <div className="mainDiv">
                 <Container>
-                    <h1>React Fundamentals SPA</h1>
-                    <Row>
+                    <h1 className="project6">React Fundamentals SPA</h1>
+                    <Row className="project6">
                         <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                            <h6>This is a GitBook created by Eleven Fifty Academy. It is a React tutorial teaching many fundamentals and React concepts. What is so cool about it was the learning experience involved. You start by cloning their SPA boilerplate.</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
@@ -21,9 +21,9 @@ const Project6 = () => {
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="project6">
                         <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                            <h6>With every lesson you add a new link for each concept you learn,while utilizing that concept in each one. It really is alot of fun to watch this app grow while you build it.</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
@@ -31,9 +31,13 @@ const Project6 = () => {
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="project6">
                         <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                            <h6>Technical Skills:</h6>
+                            <ul>
+                                <li>React.JS, ReactStrap, ReactRouter, JavaScript, HTML, CSS</li>
+                                <li>Single Page Application, ECMAScript2015(ES6) </li>
+                            </ul>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
