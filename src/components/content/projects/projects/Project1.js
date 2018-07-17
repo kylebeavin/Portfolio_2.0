@@ -16,7 +16,7 @@ const Project1 = () => {
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src={elevennote1}alt="Card image cap" />
+                                <CardImg className="imageScale" width="100%" src={elevennote1}alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>
@@ -26,7 +26,7 @@ const Project1 = () => {
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src={elevennote2} alt="Card image cap" />
+                                <CardImg className="imageScale" width="100%" src={elevennote2} alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>
@@ -41,7 +41,7 @@ const Project1 = () => {
                         </Col>
                         <Col lg="3">
                             <Card inverse>
-                                <CardImg width="100%" src={elevennote3} alt="Card image cap" />
+                                <CardImg className="imageScale" width="100%" src={elevennote3} alt="Card image cap" />
                             </Card>
                         </Col>
                     </Row>
