@@ -9,10 +9,10 @@ const Project4 = () => {
         <div className="main">
             <div className="mainDiv">
                 <Container>
-                    <h1>Bomboard Superstore</h1>
-                    <Row>
-                        <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                    <h1 className="project4">Bomboard Superstore</h1>
+                    <Row className="project4">
+                        <Col lg="9" md="6" xs="12" className="project4-col1">
+                            <h6>I made this storefront website using the Angular Tour of Heroes Tutorial. This was my first experience working with googles Angular2 Framework. Styling was kept to a minimum, learning this new framework was my priority because I had a bigger project coming very quickly.</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
@@ -20,9 +20,9 @@ const Project4 = () => {
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="project4">
                         <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                            <h6>Learning something new is always fun that is why I included this in my projects section.It was really cool learning Observables and Dependency Injection!</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
@@ -30,9 +30,12 @@ const Project4 = () => {
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                    <Row className="project4">
+                        <Col lg="9" md="6" xs="12" className="project4-col1">
+                            <h6>Technical Skills:<a href="https://bomboard-1934c.firebaseapp.com" target="blank">Bomboard Superstore</a></h6>
+                            <ul>
+                                <li>Angular5, JavaScript, HTML, CSS</li>
+                            </ul>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
