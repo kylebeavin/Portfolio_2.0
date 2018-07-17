@@ -9,20 +9,20 @@ const Project3 = () => {
         <div className="main">
             <div className="mainDiv">
                 <Container>
-                    <h1>The Grass Roots</h1>
-                    <Row>
-                        <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                    <h1 className="project3">The Grass Roots</h1>
+                    <Row className="project3">
+                        <Col lg="9" md="6" xs="12" >
+                            <h6>This Project was a fast paced challenge. The Movie Pro DB team developed this overnight to practice our Team Git skills and familiarize ourselves with Angular. We gave a presentation the next day to prepare us for working with our real client.</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
                                 <CardImg width="100%" src={grass1} alt="Card image cap" />
                             </Card>
                         </Col>
-                    </Row>
-                    <Row>
+                    </Row >
+                    <Row className="project3">
                         <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                            <h6>It was a team building excercise to make a static website for grassroots gardening using Angular. The only requirements were to have a home page an about page and a products page, not very difficult but we had alot of fun with it.</h6>
                         </Col>
                         <Col lg="3">
                             <Card inverse>
@@ -30,9 +30,14 @@ const Project3 = () => {
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="project3">
                         <Col lg="9" md="6" xs="12">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum suspendisse ultrices gravida. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Odio aenean sed adipiscing diam donec adipiscing tristique.</h6>
+                            <h6>Technical Skills:<a href="https://grassroots-732ce.firebaseapp.com" target="blank">The Grass Roots</a></h6>
+                            <ul>
+                                <li>Angular5, JavaScript, HTML</li>
+                                <li>Angular Material, CSS, UI/UX</li>
+                                <li>Git, Team Git, Agile</li>
+                            </ul>
                         </Col>
                         <Col lg="3">
                             <Card inverse>

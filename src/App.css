@@ -91,10 +91,6 @@ Main Section
   width: 100%;
   z-index: 300; }
 
-footer p {
-  margin-top: 0.8em;
-  margin-left: 1.5em; }
-
 .spacer {
   position: fixed;
   left: 0;
@@ -104,20 +100,42 @@ footer p {
   background-color: white;
   z-index: 300; }
 
-.glyph {
+.brandList li {
+  list-style-type: none;
+  display: inline-block; }
+
+ul.brandList {
+  margin: 5px 5px 5px 5px;
+  padding: 0; }
+
+button {
+  background-color: transparent;
   color: white;
-  font-size: 36px;
-  margin-top: 4px;
-  margin-right: .5rem; }
+  border: 1px solid white;
+  border-radius: 20%;
+  font-size: 26px; }
 
-.resume {
-  padding-right: 1.5rem; }
+.brandButton {
+  margin-left: 1rem;
+  transition: background-color .15s ease-in-out;
+  transition: border .15s ease-in-out; }
 
+.brandButton:hover {
+  background-color: dimgray;
+  border: dimgray solid 1px; }
+
+.brandButton:focus {
+  outline: none; }
+
+/****************************
+SideDrawer Section
+****************************/
 .toggle-button {
+  margin-left: 25%;
   display: flex;
   flex-direction: row;
   height: 24px;
-  width: 17px;
+  width: 30px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -134,10 +152,9 @@ footer p {
   background: white; }
 
 .toggle-button__line2 {
-  width: 13px;
-  height: 24px;
-  background: white;
-  opacity: .25; }
+  margin-left: 3px;
+  width: 60px;
+  height: 24px; }
 
 .side-drawer {
   height: 100%;
@@ -161,3 +178,39 @@ footer p {
   display: flex;
   flex-direction: column;
   padding: 0; }
+
+.toggle-button__arrow {
+  margin-bottom: 2px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg); }
+
+/****************************
+Project Section
+****************************/
+.project2-col2 {
+  padding-top: 1rem; }
+
+.project3 {
+  margin-bottom: 1rem; }
+
+.project4 {
+  margin-bottom: 1rem; }
+
+.project4-col1 {
+  padding-top: .5rem; }
+
+.project5 {
+  margin-bottom: 1rem; }
+
+.project5-col3 {
+  padding-top: 1rem; }
+
+.project6 {
+  margin-bottom: 1rem; }
+
+.project1 {
+  margin-bottom: 1rem; }

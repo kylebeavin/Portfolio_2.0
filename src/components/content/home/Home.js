@@ -15,7 +15,6 @@ export default class Home extends Component {
                                 <h3>Aspiring Software Developer</h3>
                                 <h4>Loving Husband & Father</h4>
                                 <h5>Self-Proclaimed Grill Master</h5>
-                                <h5>Leader | Learner | Laugher</h5>     
                             </Col>
                             <Col lg="3">
                                 <Card inverse>

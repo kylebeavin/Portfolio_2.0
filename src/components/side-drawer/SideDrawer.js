@@ -19,7 +19,7 @@ const SideDrawer = props => {
                 <li><Link to="/project4"><Button className="sideButton longButton" outline color="secondary">project4</Button></Link></li>
                 <li><Link to="/project5"><Button className="sideButton longButton" outline color="secondary">project5</Button></Link></li>
                 <li><Link to="/project6"><Button className="sideButton longButton" outline color="secondary">project6</Button></Link></li>
-                <li><DrawerToggleButton click={props.drawerToggleClickHandler} /></li>
+                <li><Button className="sideButton longButton" outline color="secondary"><DrawerToggleButton click={props.drawerToggleClickHandler} /></Button></li>
             </ul>
         </nav>
         <div className="mainDiv">
