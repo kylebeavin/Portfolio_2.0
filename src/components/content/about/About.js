@@ -24,7 +24,7 @@ class About extends Component {
                         </Row>
                         <Row>
                             <Col lg="9" md="6" xs="12">
-                                <h6>I spent a decade pouring myself into my work, doing manual labor eventually working up the management chain. There was something else calling me though. In the summer of 2017 is when I started trying to teach myself to code. I would stay up late studying C++ and Python syntaxes and OOP principles. Then one day I discovered Eleven Fifty Academy. They put me through very an intense learning program to develop my web building skills.</h6>
+                                <h6>I spent a decade pouring myself into my work, doing manual labor eventually working up the management chain. There was something else calling me though. In the summer of 2017 is when I started trying to teach myself to code. I would stay up late studying C++ and Python syntaxes and OOP principles. Then one day I discovered Eleven Fifty Academy. They put me through an intense learning program to develop my web building skills.</h6>
                             </Col>
                             <Col lg="3">
                                 <Card inverse>
